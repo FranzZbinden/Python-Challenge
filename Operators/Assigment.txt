@@ -1,0 +1,13 @@
+=	Assignment	x = 3	x = 3
++=	Addition assignment	x += 3	x = x + 3
+-=	Subtraction assignment	x -= 3	x = x – 3
+*=	Multiplication assignment	x *= 3	x = x * 3
+/=	Division assignment	x /= 3	x = x / 3
+%=	Modulus assignment	x %= 3	x = x % 3
+//=	Floor division assignment	x //= 3	x = x // 3
+**=	Exponentiation assignment	x **= 3	x = x ** 3
+&=	Bitwise AND assignment	x &= 3	x = x & 3
+|=	Bitwise OR assignment	x |= 3	x = x | 3
+^=	Bitwise XOR assignment	x ^= 3	x = x ^ 3
+>>=	Bitwise right shift assignment	x >>= 3	x = x >> 3
+<<=	Bitwise left shift assignment	x <<= 3	x = x << 3
