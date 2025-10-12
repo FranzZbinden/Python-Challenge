@@ -3,7 +3,7 @@
 ![Progress](https://img.shields.io/badge/Progress-4%2F30-brightgreen)
 
 ## Overview
-The purpose of this repository is for my own learning — to explore Python topics that go beyond what’s usually covered in typical courses.  
+The purpose of this repository is for my own learning, to explore Python topics that go beyond what’s usually covered in typical courses.  
 It’s a place for me to experiment, take notes, and deepen my understanding of the language and its advanced concepts.
 
 ## References
@@ -19,6 +19,3 @@ This repository may include:
 - Notes and examples from the learning resources  
 - Personal experiments with Python features and libraries
 
----
-
-*Created for self-learning and continuous improvement in Python.*
