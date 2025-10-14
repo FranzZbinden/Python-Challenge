@@ -79,35 +79,94 @@ stringg_list = stringg.split(', ')
 print(stringg_list)
 
 
-# What is the character at index 0 in the string Coding For All.
+# 16. What is the character at index 0 in the string  For All.
+cfa = 'Coding For All'
+print(cfa[0])
+print()
+
+# 17. What is the last index of the string Coding For All.
+cfa = 'Coding For All'
+last = len(cfa) - 1
+print(cfa[last])
+print()
+
+# 18. What character is at index 10 in "Coding For All" string.
+cfa = 'Coding For All'
+print(cfa[10])
+print()
+
+# 19. Create an acronym or an abbreviation for the name 'Python For Everyone'.
+
+cfa = 'Python For Everyone'
+cfa_abrev = cfa.split()
+for i in range(len(cfa_abrev)):
+    cfa_abrev[i] = (cfa_abrev[i])[0]
+cfa_abrev = "".join(cfa_abrev)
+print(cfa_abrev)
+print()
 
 
-# What is the last index of the string Coding For All.
+# 20. Create an acronym or an abbreviation for the name 'Coding For All'.
+cfa = 'Coding For All'
+cfa_abrev = cfa.split()
+for i in range(len(cfa_abrev)):
+    cfa_abrev[i] = (cfa_abrev[i])[0]
+cfa_abrev = "".join(cfa_abrev)
+print(cfa_abrev)
+print()
 
 
-# What character is at index 10 in "Coding For All" string.
+# 21. Use index to determine the position of the first occurrence of C in Coding For All.
+cfa = 'Coding For All'
+found = cfa.index('C')
+print(found)
+print()
+
+# 22. Use index to determine the position of the first occurrence of F in Coding For All.
+cfa = 'Coding For All'
+found = cfa.index('F')
+print(found)
+print()
+
+# 23. Use rfind to determine the position of the last occurrence of l in Coding For All People.
+cfa = 'Coding For All'
+found = cfa.rindex('l')
+print(found)
+print()
+
+# 24. Use index or find to find the position of the first occurrence of the word 'because' in the 
+# following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+rfound = sentence.index("because")
+print(rfound)
+print()
 
 
-# Create an acronym or an abbreviation for the name 'Python For Everyone'.
+# 25. Use rindex to find the position of the last occurrence of the word because in the following 
+# sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+rfound = sentence.rindex("because")
+print(rfound)
+print()
 
+# 26. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a 
+# sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+bcs = 'because'
+first_index = sentence.index('because')
+last_index = sentence.rfind('because')
 
-# Create an acronym or an abbreviation for the name 'Coding For All'.
+because_string = sentence[first_index:last_index+len(bcs)]
+print(because_string)
 
+# Find the position of the first occurrence of the word 'because' in the following sentence: 
+# 'You cannot end a sentence with because because because is a conjunction'
 
-# Use index to determine the position of the first occurrence of C in Coding For All.
+# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a
+#  sentence with because because because is a conjunction'
 
-
-# Use index to determine the position of the first occurrence of F in Coding For All.
-
-
-# Use rfind to determine the position of the last occurrence of l in Coding For All People.
-
-
-# Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-# Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-# Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 # Does ''Coding For All' start with a substring Coding?
+
 # Does 'Coding For All' end with a substring coding?
+
 # '   Coding For All      '  , remove the left and right trailing spaces in the given string.
