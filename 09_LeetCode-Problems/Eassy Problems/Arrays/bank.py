@@ -9,6 +9,7 @@ class Solution:
             if i %7 == 0:
                 start_amm += 1
                 week_amm
+                # unfinished
              
         
 
